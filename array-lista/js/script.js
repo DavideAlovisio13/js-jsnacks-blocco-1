@@ -32,6 +32,7 @@ btnPul.addEventListener('click', function() {
             document.getElementById('cocomero').innerHTML = cocoOk;
         }
     }
+    // nel caso in cui non sia presente allora....
     if (!cocoFridge) {
         let cocoNo = "Cavolo... non lo avevo segnato nella lista!";
         document.getElementById('cocomero').innerHTML = cocoNo;
